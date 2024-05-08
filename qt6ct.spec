@@ -45,7 +45,7 @@ under DE/WM without Qt integration.
 %{_datadir}/%{name}/colors/*.conf
 %{_datadir}/%{name}/qss/*.qss
 %dir %{_libdir}/qt6/plugins/platformthemes/
-%{_libdir}/qt6/plugins/styles/
+%dir %{_libdir}/qt6/plugins/styles/
 %{_libdir}/qt6/plugins/platformthemes/libqt6ct.so
 %{_libdir}/qt6/plugins/styles/libqt6ct-style.so
 %{_libdir}/libqt6ct-common.so*
