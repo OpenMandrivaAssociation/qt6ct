@@ -7,6 +7,7 @@ Group:          System/GUI/Other
 URL:            https://github.com/trialuser02/qt6ct
 Source:         https://github.com/trialuser02/qt6ct/archive/refs/tags/%{version}/%{name}-%{version}.tar.gz
 BuildRequires:  cmake
+BuildRequires:  cmake(Qt6)
 BuildRequires:  cmake(Qt6Concurrent)
 BuildRequires:  cmake(Qt6LinguistTools)
 BuildRequires:  cmake(Qt6Widgets)
