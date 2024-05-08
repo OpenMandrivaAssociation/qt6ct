@@ -18,8 +18,6 @@ BuildRequires:  pkgconfig(xkbcommon)
 BuildRequires:  qt6-qtbase-theme-gtk3
 BuildRequires:  qt6-qtsvg
 
-Requires:  qt6-qtsvg
-
 %description
 This program allows users to configure Qt6 settings (theme, font, icons, etc.)
 under DE/WM without Qt integration.
