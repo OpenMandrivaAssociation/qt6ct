@@ -13,6 +13,7 @@ BuildRequires:  cmake(Qt6Concurrent)
 BuildRequires:  cmake(Qt6Gui)
 BuildRequires:  cmake(Qt6LinguistTools)
 BuildRequires:  cmake(Qt6Widgets)
+BuildRequires:  pkgconfig(xkbcommon)
 BuildRequires:  qt6-qtsvg
 
 Requires:  qt6-qtsvg
