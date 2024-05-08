@@ -13,7 +13,9 @@ BuildRequires:  cmake(Qt6Concurrent)
 BuildRequires:  cmake(Qt6Gui)
 BuildRequires:  cmake(Qt6LinguistTools)
 BuildRequires:  cmake(Qt6Widgets)
+BuildRequires:  cmake(VulkanHeaders)
 BuildRequires:  pkgconfig(xkbcommon)
+BuildRequires:  qt6-qtbase-theme-gtk3
 BuildRequires:  qt6-qtsvg
 
 Requires:  qt6-qtsvg
@@ -42,8 +44,8 @@ under DE/WM without Qt integration.
 %dir %{_datadir}/%{name}/qss
 %{_datadir}/%{name}/colors/*.conf
 %{_datadir}/%{name}/qss/*.qss
-%dir %{_qt6_pluginsdir}/platformthemes
-%dir %{_qt6_pluginsdir}/styles
-%{_qt6_pluginsdir}/platformthemes/lib%{name}.so
-%{_qt6_pluginsdir}/styles/lib%{name}-style.so
+#dir %{_qt6_pluginsdir}/platformthemes
+#dir %{_qt6_pluginsdir}/styles
+#{_qt6_pluginsdir}/platformthemes/lib%{name}.so
+#{_qt6_pluginsdir}/styles/lib%{name}-style.so
 %{_libdir}/libqt6ct-common.so*
