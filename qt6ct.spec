@@ -12,11 +12,10 @@ BuildRequires:  cmake(Qt6Core)
 BuildRequires:  cmake(Qt6Concurrent)
 BuildRequires:  cmake(Qt6Gui)
 BuildRequires:  cmake(Qt6LinguistTools)
+BuildRequires:  cmake(Qt6Svg)
 BuildRequires:  cmake(Qt6Widgets)
 BuildRequires:  cmake(VulkanHeaders)
 BuildRequires:  pkgconfig(xkbcommon)
-BuildRequires:  qt6-qtbase-theme-gtk3
-BuildRequires:  qt6-qtsvg
 
 %description
 This program allows users to configure Qt6 settings (theme, font, icons, etc.)
