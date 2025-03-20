@@ -1,6 +1,6 @@
 Name:           qt6ct
 Version:        0.9
-Release:        3
+Release:        4
 Summary:        Qt6 Configuration Tool
 License:        BSD-2-Clause
 Group:          System/GUI/Other
