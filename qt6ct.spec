@@ -7,6 +7,7 @@ Group:          System/GUI/Other
 URL:            https://www.opencode.net/trialuser02/qt6ct
 Source:         https://www.opencode.net/trialuser/qt6ct/-/archive/%{version}/qt6ct-%{version}.tar.bz2
 BuildRequires:  cmake
+BuildRequires:  make
 BuildRequires:  cmake(Qt6)
 BuildRequires:  cmake(Qt6Core)
 BuildRequires:  cmake(Qt6Concurrent)
